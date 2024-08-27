@@ -1,0 +1,57 @@
+.taskInput{
+    width: 60vw;
+    height: 120px;
+    background:linear-gradient(to right,#e8f1ea,#f4fbf4);
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    border-bottom:1px solid rgb(173, 171, 171);
+    margin-top: 50px;
+}
+
+.taskInput form{
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    margin: 10px;
+}
+.taskInput form input{
+    display: flex;
+    background-color: transparent;
+    border: none;
+   margin: 25px;
+   font-size: 18px;
+
+}
+
+.taskInput form input:focus{
+    border: none !important;
+    outline: none;
+}
+
+.taskData{
+    width: 60vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.weather{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weather-loc{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     gap: 20px;
+  
+}
