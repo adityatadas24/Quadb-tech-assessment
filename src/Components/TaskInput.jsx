@@ -4,6 +4,7 @@ import { addtask } from "../Redux/Actions/TaskActions";
 import "./style.css";
 import { Button } from "react-bootstrap";
 
+
 const TaskInput = () => {
   const [task, setTask] = useState("");
   const dispatch = useDispatch();
@@ -17,7 +18,7 @@ const TaskInput = () => {
   }
 
   return (
-    <div className="taskInput">
+    <div className="taskInput w-full">
       <form onSubmit={handleSubmit}>
         <div>
           <input
@@ -27,8 +28,8 @@ const TaskInput = () => {
             placeholder="Add Task"
           />
         </div>
-        <div>
-          <Button  className="btn btn-success" type="submit">ADD Task</Button>
+        <div className="">
+          <Button  className="  btn btn-success " type="submit">ADD Task</Button>
         </div>
       </form>
     </div>

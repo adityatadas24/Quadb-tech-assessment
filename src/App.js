@@ -7,7 +7,7 @@ import LoginSignup from "./Components/LoginSignup/LoginSignup";
 
 const App = () => {
   return (
-    <div className="task">
+    <div className="task w-full">
       <Routes>
         <Route path="/" element={<LoginSignup />} />
 
@@ -19,4 +19,4 @@ const App = () => {
 
 export default App;
 
-//f00c38e0279b7bc85480c3fe775d518c
+
