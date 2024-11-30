@@ -39,7 +39,7 @@ const Sidebar = () => {
 
         <div className="flex flex-col items-center justify-center relative bottom-4 mt-2">
           <img src={avatar} alt="" className="w-14" />
-          <p>Hi,ABCD</p>
+          <p>Hi,AB</p>
         </div>
         
 
